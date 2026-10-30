@@ -22,3 +22,26 @@ Scope: the Dragonboon **organization presentation repository** only. It is not a
 ## Safety and truthfulness
 
 Never publish private repository information, secrets, unpublished roadmaps or unverified status claims. Treat icons and images as credited assets. Keep `AGENTS.md` as contributor guidance—not part of the public README copy.
+
+## Evidence contract for profile changes
+
+Before editing, list the entries/languages affected, their canonical public source
+and the visible navigation outcome. For an organization inventory refresh, enumerate
+all accessible pages and distinguish public repositories from inaccessible/private
+ones; never infer their names from earlier conversation. Check each affected default
+branch rather than copying descriptions or maturity claims from an unmerged PR.
+Do not impose a shared engine version, addon namespace or release status across
+independent projects.
+
+Keep one canonical entry per repository and equivalent facts in English/Spanish.
+Validate local asset paths and heading anchors separately from external URLs.
+Use the smallest relevant source excerpt instead of reading every repository.
+For documentation-only changes, link/path review is sufficient; only report a
+rendered review if the rendered page was actually observed. No engine build,
+runtime suite or invented CI is needed.
+
+Record the source repositories/branches checked, changed entries, link/anchor
+results and any inaccessible sources. Do not claim a project is production-ready
+or that agents are more effective without evidence. Publishing authorization is
+task-specific; protect concurrent changes by checking the branch head before
+updating it and never force-push.
